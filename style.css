@@ -1,0 +1,70 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;600&family=Satisfy&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header styles start */
+
+header {
+    background-color: orange;
+    padding: 10px 0px;
+}
+
+header nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo h3 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.res-menu {
+    display: none;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a {
+    color: #fff;
+    margin-left: 30px;
+}
+
+/* responsive styles */
+@media screen and (max-width:576px) {
+    .res-menu {
+        display: flex;
+
+
+    }
+
+    .res-menu a {
+        height: 24px;
+        width: 24px;
+        color: #fff;
+
+
+    }
+
+
+
+    .menu {
+        display: none;
+    }
+}
+
+/* responsive style end */
