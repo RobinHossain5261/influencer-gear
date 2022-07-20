@@ -106,6 +106,55 @@ main {
 }
 
 /* company logo part end */
+/* Popular Collection part start */
+.blogs {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.blog img {
+    width: 100%;
+}
+
+.blog {
+    padding: 30px;
+    box-shadow: 5px 5px 5px gray;
+    border: 2px solid #ccc;
+
+}
+
+.title {
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blog h3 {
+    font-weight: normal;
+}
+
+.star {
+    color: #FB8200;
+    margin-bottom: 5px;
+}
+
+.blog p {
+    color: #787885;
+    font-weight: bold;
+}
+
+
+
+.rating {
+    display: flex;
+    gap: 20px;
+
+}
+
+/* Popular Collection part end */
 
 /* ===========================
         main part end
