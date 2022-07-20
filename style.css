@@ -155,11 +155,64 @@ main {
 }
 
 /* Popular Collection part end */
+/* product part start */
+.product {
+    width: 80%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    align-items: center;
+}
+
+
+
+.product img {
+    width: 100%;
+}
+
+.product p {
+    color: #787885;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.product button {
+    padding: 10px 25px;
+    color: #fff;
+    background-color: orange;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* product part end */
 
 /* ===========================
         main part end
         ======================= */
+/* footer part start */
+footer {
+    background-color: #0A0826;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0px;
+}
 
+.social {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.fa-brands {
+
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+/* footer part end */
 
 /* responsive styles */
 @media screen and (max-width:576px) {
